@@ -1,11 +1,137 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
+    background-color: #4BD4F2;
     margin: 0;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#titulo {
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: green;
+    margin-right: 200px;
+    flex: 1;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(207, 207, 207);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+nav ul li a {
+    padding: 20px 167px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div-sessao2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+.div-sessao1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    border-radius: 10px;
+}
+.div-contato {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 30px;
+    background-color:rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+
+input[type=email] {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.footer-text{
+    color: black;
+}
+
+footer {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 15px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
